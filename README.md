@@ -1,2 +1,3 @@
-# bsc_thesis_iot_sensor
-This is a repo for the project I worked on for my BSc thesis.
+# BSc thesis project
+This is a repo for the project I worked on for my BSc thesis. It is the source code used to program the device my thesis partner and I created. It is an embedded system device, utilizing an ATmega328P microcontroller, along with an IAM-20380 3-axis gyroscope and a H3LIS200DL 3-axis linear accelerometer and a Keyestudio HM-10 Bluetooth module. 
+For communication between the embedded modules the I2C communication protocol was used, and the UART protocol for the bluetooth communications. The device was connected to an Android phone that run a custom app we also created for communicating with the device.
